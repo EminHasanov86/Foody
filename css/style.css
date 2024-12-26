@@ -1,0 +1,447 @@
+:root{
+    --orange:#FF7404;
+    --gray:#868EA3;
+}
+
+
+.col-lg-2 .card{background: #f1f1f1;}
+#logo {
+    color: #fff;
+}
+#navbar-button {
+    background: var(--orange);
+    border: none;
+    padding: 10px 20px;
+    
+}
+#navbar-button:hover{
+    background: #fff;
+    a {color: #FF7404;}
+    
+}
+#navbar-button a {
+    text-decoration: none;
+    font: bold .8rem "Open Sans",Arial,sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+#logo {
+    font: 800 2rem "Open Sans",Arial,sans-serif;
+    letter-spacing: .2em;
+}
+.navbar a {
+    padding: 0 .5rem 0 .5rem;
+    color: #fff;
+}
+.navbar a:active {
+    color: #FF7404;
+}
+.dropdown-menu .dropdown-item {
+    color:black
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #FF7404;
+    color: #fff;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: #fff;
+}
+.tt2 {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.title p{
+    font: 300 1.25rem "Open Sans",Arial,sans-serif;
+    padding: 15px;
+}
+.tt2 p {
+    padding: 15px 0 45px 0;
+}
+.title button{  
+    color: #fff;
+    background: none;
+    font: 400 .8rem "Open Sans", Arial, sans-serif;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+.title button:hover{
+    background: #fff;
+    color: #000;
+}
+.title h2 {
+    font: 800 3em "Open Sans", Arial, sans-serif;
+}
+.navbar-nav .nav-link:hover {
+    color: #FF7404;
+}
+
+.card { 
+    border: none!important;
+    h6{
+        color: #868EA3;
+    }
+}
+
+.restaurant{
+    padding: 7%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 200px;
+}
+.restaurant h2{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    color: #000;
+}
+.restaurant p{
+    text-align: center;
+    color: var(--gray);
+    font: 400 .9em "Open Sans",Arial,sans-serif;
+}
+.restaurant .row img {
+    width: 100%;
+}
+#clippy{
+    position: absolute;
+    height: 160px;
+    width: 110%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-6deg);
+    left: 50%;
+    bottom: 0;
+    background: #f1f1f1;
+}   
+#clippy2{
+    position: absolute;
+    height: 300px;
+    width: 110%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: 100%;
+    background: #f1f1f1;
+}   
+#clippy3{
+    position: absolute;
+    height: 100px;
+    width: 110%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: 0;
+}
+#clippy4{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: -4%;
+    background: #fff;
+}
+#clippy5{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: 100%;
+    background: #fff;
+}
+#clippy6{
+    position: absolute;
+    height: 200px;
+    width: 120%;
+    left: 50%;
+    bottom: -100px;
+    background: #fff;
+    transform: scale(1.1,1) translate(-50%,50%) rotate(356deg);
+}
+
+#slider-img{
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 20px 0 0;
+}
+main{
+    position: relative;
+    overflow: hidden;
+}
+.foods{background: #f1f1f1;}
+.foods .card img{
+    border-radius: 5%;
+    padding: 25px 0 0 0;
+    width: 2rem;
+}
+#icon{
+    width: 80px;
+    height: 80px;
+    background: var(--orange);
+    border-radius: 50%;
+    text-align: center;
+}
+.card h3{
+    font: 400 1rem "Open Sans",Arial,sans-serif;
+    color: var(--orange);
+    letter-spacing: .2rem;
+}
+.card h6{
+    font: 400 .9rem "Open Sans",Arial,sans-serif;
+}
+
+#blog hr, .restaurant hr,#special hr,.our-menu-main hr,#testimonials hr{
+    width: 10%;
+    height: 2px;
+    background: var(--orange);
+}
+
+#special .cards{
+    overflow: hidden;
+}
+
+#special img:hover{
+    scale: 1.1;
+    opacity: 1;
+    cursor: pointer;
+    background: none;
+}
+#special .card:hover .button{
+    background: none;
+    border: 1px solid #fff;
+}
+#special .card{
+    transition: .3s ease-in-out all;
+}
+
+#special h2{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+#special img{
+    width: 100%;
+    transition: .3s ease-in-out all;
+    opacity: .8;
+}
+
+
+#special .name {
+    position: absolute;
+    align-self: center;
+    top: 60vh;
+    text-align: center;
+    font: 700 1.3rem "Open Sans", Arial, sans-serif;
+    color: #fff;
+}
+#special .button{
+    position: absolute;
+    top: 40vh;
+    align-self: center;
+    justify-self: center;
+    background: var(--orange);
+    color: #fff;
+    padding: 45px 30px;
+    font: 700 1.25rem "Open Sans",Arial,sans-serif;
+    border-radius: 50%;
+    transition: .3s ease-in-out all;
+}
+
+.menu {
+    background-color: #e4e5e5;
+    padding-bottom: 400px;
+    h2 {
+        padding-bottom: 80px;
+    }
+}
+.articles {
+    display: grid;
+    grid-template-rows: 35vh 35vh 35vh 35vh
+                        35vh 35vh 35vh 35vh
+                        35vh 35vh 35vh 35vh
+                        35vh 35vh 35vh 35vh;
+    background-color: #e4e5e5;
+}
+#a01, #a03, #a06, #a08, #a09, #a011, #a013, #a14, #a16 {
+    background-color: #fff;
+}
+#a02 { background: url('../img/grid3.jpg') center/cover }
+#a04 { background: url('../img/special2.jpg') center/cover }
+#a05 { background: url('../img/dishes_1.jpg.webp') center/cover }
+#a07 { background: url('../img/dishes_2.jpg.webp') center/cover }
+.articles {
+    justify-content: center;
+    h5 {
+        font: 1.4em "Open Sans", Arial, sans-serif;
+        color: #000;
+        padding: 15px 15px 0 20px;
+    }
+    p {
+        font: .9em "Open Sans", Arial, sans-serif;
+        color: #868EA3;
+        padding: 10px 15px 0 20px;
+        text-align: left;
+    }
+    h6 {
+        font: 2em "Open Sans", Arial, sans-serif;
+        color: orange;
+        padding: 10px 0 0 20px;
+    }
+    
+}
+#testimonials{
+    h2 {
+        font: 900 2em "Open Sans", Arial, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    hr {
+        margin-top: 60px;
+    }
+}
+
+.carousel-indicators button {
+    background: #e4e5e5!important;
+    border-radius: 0!important;
+}
+.carousel-indicators button:hover {
+    background-color: #FF7404!important;
+}
+#blog h2{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#blog .row{
+    margin: 0 0 100px 0;
+}
+#blog {
+    h5 {
+        color: var(--orange);
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+    } 
+    .card {
+        padding: 20px;
+    }
+}
+#blog a:hover {
+    background-color: orange;
+}
+
+#btn{
+    background: var(--orange);
+    width: 30%;
+    font: normal .9em "Open Sans",Arial,sans-serif;
+    letter-spacing: 3px;
+}
+.card1{
+    width: 100%;
+    background: url('../img/dishes_1.jpg.webp')center/cover;
+    height: 300px;
+}
+.card2{
+    width: 100%;
+    background: url('../img/dishes_2.jpg.webp')center/cover;
+    height: 300px;
+}
+.subscribe input{
+    width: 70%;
+}
+.subscribe-btn button{
+    background: var(--orange);
+    width: 70%;
+    color: #fff;
+    border: none;
+}
+footer {
+    padding-top: 100px;
+}
+
+@media only screen and (min-width: 768px){
+    #navbar {
+        background-color: rgba(33, 37, 41, 0) !important;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+    }
+    
+    .title h2{
+        font-size: 3.5em;
+    }
+    .title{
+        position: absolute;
+        left: 25vw;
+    }
+    .tt2 {
+        position: absolute;
+        left: 35vw;
+    }
+    .col-lg-2{
+        margin: auto;
+    }
+    .restaurant h2{
+        font-size: 2.5em;
+    }
+    #special h2{
+        font-size: 2.5em;
+    }
+    
+    #special .name {
+        position: absolute;
+        top: 43vh;
+    }
+    #special .button {
+        position: absolute;
+        top: 23vh;
+    }
+    .articles {
+        display: grid;
+        grid-template-rows:      35vh 35vh 35vh 35vh;
+        grid-template-columns:   18vw 18vw 18vw 18vw;
+    }
+
+
+    .card1{
+        width: 100%;
+        background: url('../img/dishes_1.jpg.webp')center/cover;
+        height: 300px;
+    }
+    .card2{
+        width: 100%;
+        background: url('../img/dishes_2.jpg.webp')center/cover;
+        height: 300px;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .subscribe input{
+        width: 30%;
+        outline: none;
+        height: 40px;
+    }
+
+    .subscribe-btn button{
+        width: 100%;
+        height: 40px;
+        margin: 0 0 5px 10px;
+        cursor: pointer;
+    }
+    .contact-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+    }
+}
+
+
