@@ -2,7 +2,12 @@
     --orange:#FF7404;
     --gray:#868EA3;
 }
-
+.navbar-toggler {
+    background-color: #fff!important;
+}
+.navbar-collapse {
+    padding-left: 20vw!important;
+}
 
 .col-lg-2 .card{background: #f1f1f1;}
 #logo {
@@ -10,13 +15,14 @@
 }
 #navbar-button {
     background: var(--orange);
+    color: #fff!important;
     border: none;
     padding: 10px 20px;
     
 }
 #navbar-button:hover{
     background: #fff;
-    a {color: #FF7404;}
+    color: #FF7404!important;
     
 }
 #navbar-button a {
@@ -292,6 +298,22 @@ main{
     }
     
 }
+.a-1 {order: 1;}
+.a-2 {order: 2;}
+.a-3 {order: 3;}
+.a-4 {order: 4;}
+.a-5 {order: 6;}
+.a-6 {order: 5;}
+.a-7 {order: 8;}
+.a-8 {order: 7;}
+.a-9 {order: 9;}
+.a-10 {order: 10;}
+.a-11 {order: 11;}
+.a-12 {order: 12;}
+.a-13 {order: 14;}
+.a-14 {order: 13;}
+.a-15 {order: 16;}
+.a-16 {order: 15;}
 #testimonials{
     h2 {
         font: 900 2em "Open Sans", Arial, sans-serif;
@@ -324,13 +346,17 @@ main{
     h5 {
         color: var(--orange);
     }
-    a {
-        text-decoration: none;
-        color: #fff;
-        text-align: center;
-    } 
     .card {
         padding: 20px;
+    }
+    button {
+        background-color: #FF7404;
+        color: #fff;
+        border: none;
+        padding: 5px 12px;
+        width: 20vw;
+        font-size: 0.8em;
+
     }
 }
 #blog a:hover {
@@ -361,6 +387,8 @@ main{
     width: 70%;
     color: #fff;
     border: none;
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
 }
 footer {
     padding-top: 100px;
@@ -378,12 +406,16 @@ footer {
         font-size: 3.5em;
     }
     .title{
-        position: absolute;
-        left: 25vw;
+        position:initial!important;
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+        padding-top: 40vh;
     }
     .tt2 {
-        position: absolute;
-        left: 35vw;
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
     }
     .col-lg-2{
         margin: auto;
@@ -408,7 +440,9 @@ footer {
         grid-template-rows:      35vh 35vh 35vh 35vh;
         grid-template-columns:   18vw 18vw 18vw 18vw;
     }
-
+    .b {
+        order: initial;
+    }
 
     .card1{
         width: 100%;
@@ -436,6 +470,7 @@ footer {
         height: 40px;
         margin: 0 0 5px 10px;
         cursor: pointer;
+        margin-top: 0!important;
     }
     .contact-container{
         display: flex;
